@@ -11,9 +11,16 @@ function Footer() {
                         Blog Pessoal Generation | Copyright: {data}
                     </p>
                     <div className="flex gap-2">
-                        <LinkedinLogoIcon size={48} weight="bold"/>
-                        <InstagramLogoIcon size={48} weight="bold"/>
-                        <FacebookLogoIcon size={48} weight="bold"/>
+                        <a href="https://linkedin.com/in/kalifrancadev" target="_blank">
+                            <LinkedinLogoIcon size={48} weight="bold"/>
+                        </a>
+                        <a href="#" target="_blank">
+                            <InstagramLogoIcon size={48} weight="bold"/>
+                        </a>
+                        <a href="#" target="_blank">
+                            <FacebookLogoIcon size={48} weight="bold"/>
+                        </a>
+                        
                     </div>
                 </section>
             </footer>
