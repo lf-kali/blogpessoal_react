@@ -1,7 +1,9 @@
-import ListaPostagens from "../../components/postagem/listapostagem/listapostagens";
+import ListaPostagens from "../../components/postagem/listapostagem/ListaPostagens";
 import ModalPostagem from "../../components/postagem/modalpostagem/ModalPostagem";
 
 function Home() {
+
+  
   return (
     <>
       <main className="bg-indigo-900 flex justify-center">
